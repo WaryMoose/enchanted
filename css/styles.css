@@ -1,0 +1,302 @@
+/* 
+    Created on : May 12, 2016, 11:30:10 PM
+    Author     : YayThemes.com
+    Author Website     : http://www.YayThemes.com
+*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300|Raleway:400,300,500);
+body{
+    background: url('../img/bg.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    height: 100%;
+    background-size: cover;
+    background-color: #69295b;
+}
+a{
+    color:#fff;
+}
+a:hover, a:focus{
+    color:#fff;
+}
+
+
+
+/*---- PACE ----*/
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  z-index: 2000;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  width: 200px;
+  background: #fff;
+  border: 1px solid #426384;
+
+  overflow: hidden;
+}
+.pace .pace-progress {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+
+  max-width: 200px;
+  position: fixed;
+  z-index: 2000;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  height: 100%;
+  width: 100%;
+  background: #426384;
+}
+.pace.pace-inactive {
+  display: none;
+}
+/*---- Pace ----*/
+
+
+
+
+p.low-color{
+    font-size: 12px;
+    color:rgba(255,255,255,0.4);
+}
+h2{
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: 400;
+}
+b {
+    color: #59aab5;
+}
+#blue {
+    color: #FF88FF;
+}
+#mix {
+    color: #b98cc7;
+}
+b, #blue, #mix {
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+b:hover, #blue:hover, #mix:hover {
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+b:hover {
+    animation-name: colorSwapA;
+}
+#blue:hover {
+    animation-name: colorSwapB;
+}
+#mix:hover {
+    animation-name: colorSwapC;
+}
+p{
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 300;    
+    margin: 40px auto;
+}
+.underline-stroke{
+    height: 1px;
+    width: 120px;
+    background: #fff;
+    margin-top:20px;    
+}
+.main-container{
+    max-width: 800px;
+}
+#logo{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.countdown{
+    position: relative;
+}
+.time-slot{
+    width: 120px;
+    display: inline-block;
+}
+.time-slot h1{
+    font-size: 47px;
+    font-family: "Lato";
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.time-slot span{
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 18px;
+    opacity: 0.5s;
+}
+.vr {
+    display: inline;
+    width: 1px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 37px;
+}
+#caret{
+    margin: 65px auto;
+}
+.row {
+    box-sizing: content-box;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 0;
+    border: 1px solid #fff;
+}
+.nav-tabs>li>a {
+    border: 1px solid #fff;
+    border-radius: 0;
+    margin-right: -1px;
+    color: #fff;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background: rgba(255, 255, 255, 0.27);
+}
+.tab-content {
+    border: 1px solid #fff;
+    margin-top: -1px;
+    padding: 20px 30px;
+}
+.form-control {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    margin-bottom: 12px;
+    color: #fff;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.27);
+}
+.btn-outline {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+.btn-outline:hover,.btn-outline:focus{
+    background: rgba(255, 255, 255, 0.27);
+    color: #fff;
+}
+#tabs{
+    margin-bottom: 40px;
+}
+-webkit-@keyframes colorSwapA {
+    0% {
+        color: #59aab5;
+        transition: color 1s;
+    }
+    33% {
+        color: #FF88FF;
+        transition: color 1s;
+    }
+    67% {
+        color: #b98cc7;
+        transition: color 1s;
+    }
+}
+@keyframes colorSwapA {
+    0% {
+        color: #59aab5;
+        transition: color 1s;
+    }
+    33% {
+        color: #FF88FF;
+        transition: color 1s;
+    }
+    67% {
+        color: #b98cc7;
+        transition: color 1s;
+    }
+}
+-webkit-@keyframes colorSwapB {
+    0% {
+        color: #FF88FF;
+        transition: color 1s;
+    }
+    33% {
+        color: #b98cc7;
+        transition: color 1s;
+    }
+    67% {
+        color: #59aab5;
+        transition: color 1s;
+    }
+}
+@keyframes colorSwapB {
+    0% {
+        color: #FF88FF;
+        transition: color 1s;
+    }
+    33% {
+        color: #b98cc7;
+        transition: color 1s;
+    }
+    67% {
+        color: #59aab5;
+        transition: color 1s;
+    }
+}
+-webkit-@keyframes colorSwapC {
+    0% {
+        color: #b98cc7;
+        transition: color 1s;
+    }
+    33% {
+        color: #59aab5;
+        transition: color 1s;
+    }
+    67% {
+        color: #FF88FF;
+        transition: color 1s;
+    }
+}
+@keyframes colorSwapC {
+    0% {
+        color: #b98cc7;
+        transition: color 1s;
+    }
+    33% {
+        color: #59aab5;
+        transition: color 1s;
+    }
+    67% {
+        color: #FF88FF;
+        transition: color 1s;
+    }
+}

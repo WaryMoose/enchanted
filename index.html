@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+UI Design and Developed by pFind.com -  http://www.pfind.com/
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Coming Soon - YayThemes</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/animate.custom.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/core.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="js/jquery.countdown.js"></script>
+        <script src="js/countdown.js"></script>
+        <script src="js/progress.js"></script>
+        <script src="js/core.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid main-container text-center">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img id="logo" src="img/samplelogo.png" class="center-block img-responsive">
+                    <h2>We <b>appreciate</b> your <b id="blue">patience</b>.<br> <b id="mix">Coming soon.</b></h2>
+                    <div class="center-block underline-stroke"></div>
+                </div>
+                <div class="col-lg-12">
+                    <p>
+                        Patience is always good for good.<br>
+                        This site is currently under-construction.<br>
+                        So, I would like to ask you to check back sooner.<br>
+                        <svg id="mysvg" xmlns="http://www.w3.org/2000/svg" style="margin-top: 10px;" width="32" height="32" viewBox="0 0 28 28"><path fill="white" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.507 13.941c-1.512 1.195-3.174 1.931-5.506 1.931-2.334 0-3.996-.736-5.508-1.931l-.493.493c1.127 1.72 3.2 3.566 6.001 3.566 2.8 0 4.872-1.846 5.999-3.566l-.493-.493zm-9.007-5.941c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671          1.5-1.5-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5z"/></svg>
+                    </p>
+                </div>
+            </div>
+            <div class="countdown">
+                <div class="time-slot">
+                    <h1 id="days">000</h1>
+                    <span>days</span>
+                </div>
+                <div class="vr hidden-xs"></div>
+                <div class="time-slot">
+                    <h1 id="hrs">00</h1>
+                    <span>hours</span>
+                </div>
+                <div class="vr hidden-xs"></div>
+                <div class="time-slot">
+                    <h1 id="mins">00</h1>
+                    <span>mins</span>
+                </div>
+                <div class="vr hidden-xs"></div>
+                <div class="time-slot">
+                    <h1 id="secs">00</h1>
+                    <span>secs</span>
+                </div>
+            </div>
+            <a href="#scrollto" id="caret" class="center-block animated bounce infinite">
+                <img src="img/caret.png" alt="\/">
+            </a>
+            <div id="scrollto" class="row">
+                <div class="col-lg-12">
+                    <h2>About Us</h2>
+                    <div class="center-block underline-stroke"></div>
+                </div>
+                <div class="col-lg-12">
+                    <p>The page you're looking is being backed. It may take up to few  days.
+                        We're creating something awesome so we request you to check back sooner.
+                            Submit your email address below to subscribe!
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="tabs">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#subscribe" aria-controls="subscribe" role="tab" data-toggle="tab">Subscribe</a></li>
+                            <li role="presentation"><a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contact</a></li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="subscribe">
+                                <p>Submit your name and email below to get update as soon as we launch our product</p>
+                                <input type="text" class="form-control" placeholder="your name">
+                                <input type="text" class="form-control" placeholder="your email">
+                                <button class="btn btn-outline pull-right">subscribe now</button>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="contact">
+                                <p>Submit your name and email below to get update as soon as we launch our product</p>
+                                <input type="text" class="form-control" placeholder="your name">
+                                <input type="text" class="form-control" placeholder="your email">
+                                <input type="text" class="form-control" placeholder="subject">
+                                <textarea class="form-control" placeholder="your message" rows="3"></textarea>
+                                <button class="btn btn-outline pull-right">contact</button>
+                                <div class="clearfix"></div>                            
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function () {
+                $countdown = "2017/03/05 00:00:00";
+                setCountdown($countdown);
+            });
+        </script>
+        <p class="text-center low-color"><a href="http://www.pfind.com/goodies/lonch/">Lonch</a> Designed by <a href="http://www.pfind.com/goodies">pFind.com Goodies</a></p>
+    </body>
+</html>

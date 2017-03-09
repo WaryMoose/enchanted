@@ -17,3 +17,12 @@ $(function() {
     }
   });
 });
+/*---------------*/
+/*--           --*/
+/*   countdown   */
+/*--           --*/
+/*---------------*/
+$(document).ready(function () {
+    $countdown = "2017/03/05 00:00:00";
+    setCountdown($countdown);
+});
